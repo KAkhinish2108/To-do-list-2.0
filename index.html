@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Consigliere – Simple To-Do</title>
+        <link rel="stylesheet" href="style.css" />
+
+
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- ================= NAVBAR ================= -->
+        <header class="navbar">
+            <div class="logo">Consigliere</div>
+            <nav>
+                <a href="#hero">Home</a>
+                <a href="#todo">Todo</a>
+                <a href="#contact">Contact</a>
+                <a href="#feedback">Feedback</a>
+            </nav>
+            <button class="theme-btn">Theme</button>
+        </header>
+
+        <!-- ================= HERO SECTION ================= -->
+        <section id="hero" class="hero">
+            <h1>Discipline beats motivation.</h1>
+            <p>
+                A simple to-do list for people who take control of their time.
+                No noise. No distraction.
+            </p>
+        </section>
+
+        <!-- ================= LOGIN SECTION ================= -->
+        <section class="login-section">
+            <h2>Login</h2>
+            <p>This is not authentication. This is identity.</p>
+
+            <form class="login-form">
+                <input type="text" placeholder="Enter your name" required />
+                <button type="submit">Enter Dashboard</button>
+            </form>
+        </section>
+
+        <!-- ================= TODO SECTION ================= -->
+        <section id="todo" class="todo-section">
+            <h2>Your Tasks</h2>
+            <p class="timezone">Local Time: <span id="time">--:--</span></p>
+
+            <div class="todo-input">
+                <input type="text" placeholder="Define your task..." />
+                <button>Add</button>
+            </div>
+
+            <ul class="todo-list">
+                <!-- Tasks will come here via React -->
+                <li class="todo-item">
+                    <span>Sample Task</span>
+                    <button>✔</button>
+                </li>
+            </ul>
+        </section>
+
+        <!-- ================= FEEDBACK SECTION ================= -->
+        <section id="feedback" class="feedback-section">
+            <h2>Feedback</h2>
+            <p>Systems improve when you speak honestly.</p>
+
+            <form class="feedback-form">
+                <textarea placeholder="Your feedback..."></textarea>
+                <button type="submit">Send Feedback</button>
+            </form>
+        </section>
+
+        <!-- ================= CONTACT SECTION ================= -->
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+            <p>No customer support. Only clarity.</p>
+
+            <form class="contact-form">
+                <input type="email" placeholder="Your email" />
+                <textarea placeholder="Your message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+        <!-- ================= FOOTER ================= -->
+        <footer class="footer">
+            <p>© 2026 Consigliere. Built with discipline.</p>
+        </footer>
+
+        <!-- React will mount here later -->
+        <script type="module" src="app.js"></script>
+    </body>
+
+</html>
