@@ -19,7 +19,6 @@ This is not a checklist app — it is a discipline system.
 - React (JavaScript)
 - HTML5
 - CSS3
-- Vite
 
 
 ## 📂 Folder Structure
@@ -44,22 +43,3 @@ This project demonstrates frontend engineering fundamentals, UI discipline, and 
 
 
 
-├── 📁 public/
-│ └── index.html
-├── 📁 src/
-│ ├── 📁 components/
-│ │ ├── Navbar.jsx
-│ │ ├── Login.jsx
-│ │ ├── TodoBoard.jsx
-│ │ ├── Story.jsx
-│ │ └── Contact.jsx
-│ ├── 📁 styles/
-│ │ └── theme.css
-│ ├── App.jsx
-│ ├── main.jsx
-│ └── index.css
-├── .gitignore
-├── LICENSE
-├── README.md
-├── package.json
-└── vite.config.js
