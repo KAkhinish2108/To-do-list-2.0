@@ -24,9 +24,11 @@ This is not a checklist app — it is a discipline system.
 - HTML5
 - CSS3
 
+---
+
 
 ## 📂 Folder Structure
-Component-based architecture for scalability and clean PRs.
+> Component-based architecture for scalability and clean PRs.
 
 
 ## 🧠 Philosophy
@@ -44,7 +46,7 @@ This project demonstrates frontend engineering fundamentals, UI discipline, and 
 
 
 
-
+---
 
 
 
