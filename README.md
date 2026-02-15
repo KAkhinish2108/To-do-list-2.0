@@ -1,7 +1,7 @@
 # To-do-list-2.0 : Beginner Project
 
 
-A strategy-driven To-Do application built with **React**.
+>> A strategy-driven To-Do application built with **React**.
 This is not a checklist app — it is a discipline system.
 
 
